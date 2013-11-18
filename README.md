@@ -1,6 +1,8 @@
 DerpC (Derplang Compiler)
 =========================
 
+This Derplang Compiler follows the 2.0 specification of Derplang.
+
 What is Derplang?
 -----------
 Despite its name, Derplang is a serious, general purpose, programming language, inspired by
@@ -20,10 +22,6 @@ to change the world with this project.
 
 Dependencies
 ------------
-* [C++(g++)](http://gcc.gnu.org/)
-* [LLVM](http://llvm.org/)
-* [Flex](http://flex.sourceforge.net/)
-* [Bison](http://www.gnu.org/software/bison/)
-* [GNU Make](http://www.gnu.org/software/make/)
+* [Python 2.7](http://www.python.org/)
 
 More Coming Soon...
