@@ -1,7 +1,7 @@
-DerpC (Derplang Compiler)
-=========================
+DerpI (Derplang Interpreter)
+============================
 
-This Derplang Compiler follows the 2.0 specification of Derplang.
+This Derplang Interpreter follows the 2.0 specification of Derplang.
 
 What is Derplang?
 -----------
