@@ -210,8 +210,10 @@ if __name__ == '__main__':
     import sys
     logging.basicConfig(level=logging.DEBUG)
     program = sys.stdin.read(32768)
-    program = [i.strip() for i in shlex.split(program)]
-    print program
+    splitter = shlex.shlex(program, posix=True)
+    splitter.whitespace = ":"
+    splitter.whitespace_split = True
+    program = [i.strip() for i in list(splitter)]
     p = DerplangProgram(program)
     p.scan_for_labels()
     p.run_this()
