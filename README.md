@@ -22,6 +22,6 @@ to change the world with this project.
 
 Dependencies
 ------------
-* [Ruby 1.9.3](https://www.ruby-lang.org/en/)
+* [Python 2.7](http://python.org/)
 
 More Coming Soon...
